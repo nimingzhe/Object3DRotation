@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C347216198C8C1600D7B7F5 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C347215198C8C1600D7B7F5 /* bg.png */; };
 		5C3E530E1987463700C5D669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3E530D1987463700C5D669 /* Foundation.framework */; };
 		5C3E53101987463700C5D669 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3E530F1987463700C5D669 /* CoreGraphics.framework */; };
 		5C3E53121987463700C5D669 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3E53111987463700C5D669 /* UIKit.framework */; };
@@ -22,6 +23,18 @@
 		5C3E53321987463800C5D669 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3E53111987463700C5D669 /* UIKit.framework */; };
 		5C3E533A1987463800C5D669 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E53381987463800C5D669 /* InfoPlist.strings */; };
 		5C3E533C1987463800C5D669 /* Object3DRotationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E533B1987463800C5D669 /* Object3DRotationTests.m */; };
+		5C3E5346198746F000C5D669 /* NinevehGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3E5345198746F000C5D669 /* NinevehGL.framework */; };
+		5C3E53481987471E00C5D669 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3E53471987471E00C5D669 /* OpenGLES.framework */; };
+		5C3E534A1987472A00C5D669 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3E53491987472A00C5D669 /* QuartzCore.framework */; };
+		5C3E5354198747A500C5D669 /* cube_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E534C198747A500C5D669 /* cube_back.jpg */; };
+		5C3E5355198747A500C5D669 /* cube_bottom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E534D198747A500C5D669 /* cube_bottom.jpg */; };
+		5C3E5356198747A500C5D669 /* cube_front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E534E198747A500C5D669 /* cube_front.jpg */; };
+		5C3E5357198747A500C5D669 /* cube_left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E534F198747A500C5D669 /* cube_left.jpg */; };
+		5C3E5358198747A500C5D669 /* cube_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E5350198747A500C5D669 /* cube_right.jpg */; };
+		5C3E5359198747A500C5D669 /* cube_top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E5351198747A500C5D669 /* cube_top.jpg */; };
+		5C3E535A198747A500C5D669 /* cube.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E5352198747A500C5D669 /* cube.mtl */; };
+		5C3E535B198747A500C5D669 /* cube.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E5353198747A500C5D669 /* cube.obj */; };
+		5C6A2EB5198F15610006880B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A2EB4198F15610006880B /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C347215198C8C1600D7B7F5 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		5C3E530A1987463700C5D669 /* Object3DRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Object3DRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3E530D1987463700C5D669 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5C3E530F1987463700C5D669 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +69,19 @@
 		5C3E53371987463800C5D669 /* Object3DRotationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Object3DRotationTests-Info.plist"; sourceTree = "<group>"; };
 		5C3E53391987463800C5D669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C3E533B1987463800C5D669 /* Object3DRotationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Object3DRotationTests.m; sourceTree = "<group>"; };
+		5C3E5345198746F000C5D669 /* NinevehGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NinevehGL.framework; sourceTree = "<group>"; };
+		5C3E53471987471E00C5D669 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5C3E53491987472A00C5D669 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5C3E534C198747A500C5D669 /* cube_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube_back.jpg; sourceTree = "<group>"; };
+		5C3E534D198747A500C5D669 /* cube_bottom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube_bottom.jpg; sourceTree = "<group>"; };
+		5C3E534E198747A500C5D669 /* cube_front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube_front.jpg; sourceTree = "<group>"; };
+		5C3E534F198747A500C5D669 /* cube_left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube_left.jpg; sourceTree = "<group>"; };
+		5C3E5350198747A500C5D669 /* cube_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube_right.jpg; sourceTree = "<group>"; };
+		5C3E5351198747A500C5D669 /* cube_top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cube_top.jpg; sourceTree = "<group>"; };
+		5C3E5352198747A500C5D669 /* cube.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.mtl; sourceTree = "<group>"; };
+		5C3E5353198747A500C5D669 /* cube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.obj; sourceTree = "<group>"; };
+		5C6A2EB3198F15610006880B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5C6A2EB4198F15610006880B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +89,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3E534A1987472A00C5D669 /* QuartzCore.framework in Frameworks */,
+				5C3E53481987471E00C5D669 /* OpenGLES.framework in Frameworks */,
 				5C3E53101987463700C5D669 /* CoreGraphics.framework in Frameworks */,
 				5C3E53121987463700C5D669 /* UIKit.framework in Frameworks */,
 				5C3E530E1987463700C5D669 /* Foundation.framework in Frameworks */,
+				5C3E5346198746F000C5D669 /* NinevehGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +133,9 @@
 		5C3E530C1987463700C5D669 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C3E53491987472A00C5D669 /* QuartzCore.framework */,
+				5C3E53471987471E00C5D669 /* OpenGLES.framework */,
+				5C3E5345198746F000C5D669 /* NinevehGL.framework */,
 				5C3E530D1987463700C5D669 /* Foundation.framework */,
 				5C3E530F1987463700C5D669 /* CoreGraphics.framework */,
 				5C3E53111987463700C5D669 /* UIKit.framework */,
@@ -114,12 +147,15 @@
 		5C3E53131987463700C5D669 /* Object3DRotation */ = {
 			isa = PBXGroup;
 			children = (
+				5C3E534B1987479600C5D669 /* Resource */,
 				5C3E531C1987463700C5D669 /* AppDelegate.h */,
 				5C3E531D1987463800C5D669 /* AppDelegate.m */,
 				5C3E531F1987463800C5D669 /* Main_iPhone.storyboard */,
 				5C3E53221987463800C5D669 /* Main_iPad.storyboard */,
 				5C3E53251987463800C5D669 /* ViewController.h */,
 				5C3E53261987463800C5D669 /* ViewController.m */,
+				5C6A2EB3198F15610006880B /* FirstViewController.h */,
+				5C6A2EB4198F15610006880B /* FirstViewController.m */,
 				5C3E53281987463800C5D669 /* Images.xcassets */,
 				5C3E53141987463700C5D669 /* Supporting Files */,
 			);
@@ -153,6 +189,30 @@
 				5C3E53381987463800C5D669 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C3E534B1987479600C5D669 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5C347215198C8C1600D7B7F5 /* bg.png */,
+				5C3E535C198747AF00C5D669 /* cube */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		5C3E535C198747AF00C5D669 /* cube */ = {
+			isa = PBXGroup;
+			children = (
+				5C3E534C198747A500C5D669 /* cube_back.jpg */,
+				5C3E534D198747A500C5D669 /* cube_bottom.jpg */,
+				5C3E534E198747A500C5D669 /* cube_front.jpg */,
+				5C3E534F198747A500C5D669 /* cube_left.jpg */,
+				5C3E5350198747A500C5D669 /* cube_right.jpg */,
+				5C3E5351198747A500C5D669 /* cube_top.jpg */,
+				5C3E5352198747A500C5D669 /* cube.mtl */,
+				5C3E5353198747A500C5D669 /* cube.obj */,
+			);
+			name = cube;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +291,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C347216198C8C1600D7B7F5 /* bg.png in Resources */,
+				5C3E535B198747A500C5D669 /* cube.obj in Resources */,
+				5C3E5359198747A500C5D669 /* cube_top.jpg in Resources */,
+				5C3E5358198747A500C5D669 /* cube_right.jpg in Resources */,
 				5C3E53241987463800C5D669 /* Main_iPad.storyboard in Resources */,
+				5C3E5355198747A500C5D669 /* cube_bottom.jpg in Resources */,
 				5C3E53291987463800C5D669 /* Images.xcassets in Resources */,
+				5C3E5356198747A500C5D669 /* cube_front.jpg in Resources */,
+				5C3E5354198747A500C5D669 /* cube_back.jpg in Resources */,
+				5C3E5357198747A500C5D669 /* cube_left.jpg in Resources */,
+				5C3E535A198747A500C5D669 /* cube.mtl in Resources */,
 				5C3E53211987463800C5D669 /* Main_iPhone.storyboard in Resources */,
 				5C3E53181987463700C5D669 /* InfoPlist.strings in Resources */,
 			);
@@ -256,6 +325,7 @@
 				5C3E53271987463800C5D669 /* ViewController.m in Sources */,
 				5C3E531E1987463800C5D669 /* AppDelegate.m in Sources */,
 				5C3E531A1987463700C5D669 /* main.m in Sources */,
+				5C6A2EB5198F15610006880B /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,10 +460,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Object3DRotation/Object3DRotation-Prefix.pch";
 				INFOPLIST_FILE = "Object3DRotation/Object3DRotation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +481,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Object3DRotation/Object3DRotation-Prefix.pch";
 				INFOPLIST_FILE = "Object3DRotation/Object3DRotation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +555,7 @@
 				5C3E53411987463800C5D669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C3E53421987463800C5D669 /* Build configuration list for PBXNativeTarget "Object3DRotationTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +564,7 @@
 				5C3E53441987463800C5D669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
